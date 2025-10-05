@@ -2,12 +2,12 @@
 
 
 import sys
-from python_environment_check import check_packages
 import numpy as np
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
+
 
 # # Machine Learning with PyTorch and Scikit-Learn  
 # # -- Code Examples
@@ -19,21 +19,6 @@ from matplotlib.colors import ListedColormap
 
 
 sys.path.insert(0, '..')
-
-
-# Check recommended package versions:
-
-
-
-
-
-d = {
-    'numpy': '1.21.2',
-    'matplotlib': '3.4.3',
-    'pandas': '1.3.2'
-}
-check_packages(d)
-
 
 # # Chapter 2 - Training Machine Learning Algorithms for Classification
 

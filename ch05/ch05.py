@@ -16,6 +16,7 @@ from sklearn.datasets import load_digits
 from sklearn.manifold import TSNE
 import matplotlib.patheffects as PathEffects
 
+
 # # Machine Learning with PyTorch and Scikit-Learn  
 # # -- Code Examples
 
